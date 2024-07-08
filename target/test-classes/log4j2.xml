@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <!-- Define Properties -->
+    <Properties>
+        <!-- Define the log directory -->
+        <Property name="logs.dir">./logs</Property>
+    </Properties>
+
+    <!-- Define Appenders -->
+    <Appenders>
+        <!-- Console Appender -->
+        <Console name="ConsoleAppender" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} %-5level %logger{36} - %msg%n"/>
+        </Console>
+
+        <!-- File Appender for logs -->
+        <File name="FileAppender" fileName="${log.dir}/app.log" append="true">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} %-5level %logger{36} - %msg%n"/>
+        </File>
+
+        <!-- Rolling File Appender for older logs -->
+        <RollingFile name="RollingFileAppender" fileName="${log.dir}/app-rolling.log" filePattern="${log.dir}/app-%d{yyyy-MM-dd}-%i.log">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} %-5level %logger{36} - %msg%n"/>
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+                <SizeBasedTriggeringPolicy size="10MB"/>
+            </Policies>
+            <DefaultRolloverStrategy max="7"/>
+        </RollingFile>
+
+        <!-- Log4j2 Appender for ExtentReports -->
+        <AppenderRef ref="ConsoleAppender"/>
+        <AppenderRef ref="FileAppender"/>
+        <AppenderRef ref="RollingFileAppender"/>
+    </Appenders>
+
+    <!-- Define Loggers -->
+    <Loggers>
+        <!-- Logger for ExtentReports -->
+        <Logger name="com.aventstack.extentreports" level="INFO" additivity="false">
+            <AppenderRef ref="ConsoleAppender"/>
+            <AppenderRef ref="FileAppender"/>
+        </Logger>
+
+        <!-- Root Logger -->
+        <Root level="INFO">
+            <AppenderRef ref="ConsoleAppender"/>
+            <AppenderRef ref="FileAppender"/>
+            <AppenderRef ref="RollingFileAppender"/>
+        </Root>
+    </Loggers>
+</Configuration>

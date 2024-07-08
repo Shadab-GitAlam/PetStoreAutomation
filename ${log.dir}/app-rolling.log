@@ -1,0 +1,8 @@
+2024-07-06 16:28:48 INFO  api.test.UserTest - !!!!!!!!!!!!creating user
+2024-07-06 16:28:50 INFO  api.test.UserTest - !!!!!!!!!!!!user created
+2024-07-06 16:28:50 INFO  api.test.UserTest - !!!!!!!!!!!!reading user info
+2024-07-06 16:28:51 INFO  api.test.UserTest - user info displayed
+2024-07-06 16:28:51 INFO  api.test.UserTest - !!!!!!!!!!!!updating user 
+2024-07-06 16:28:53 INFO  api.test.UserTest - !!!!!!!!!!!!user is updated
+2024-07-06 16:28:53 INFO  api.test.UserTest - !!!!!!!!!!!!delete user
+2024-07-06 16:28:55 INFO  api.test.UserTest - !!!!!!!!!!!!user deleted

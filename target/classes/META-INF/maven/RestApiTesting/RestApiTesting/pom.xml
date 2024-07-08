@@ -1,0 +1,159 @@
+<project>
+	 <modelVersion>4.0.0</modelVersion>
+  <groupId>RestApiTesting</groupId>
+  <artifactId>RestApiTesting</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+   <build>
+    <pluginManagement>
+		
+  <plugins>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-compiler-plugin</artifactId>
+          <version>3.13.0</version>
+          <configuration>
+			<suiteXmlFiles>
+                        <suiteXmlFile>testng.xml</suiteXmlFile>
+                        
+                    </suiteXmlFiles>
+          </configuration>
+        </plugin>
+        
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-compiler-plugin</artifactId>
+          <version>3.13.0</version>
+          <configuration>
+            <!-- put your configurations here -->
+          </configuration>
+        </plugin>
+      </plugins>
+   </pluginManagement>
+  </build>
+  
+  
+  <dependencies>
+	  <!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
+<dependency>
+    <groupId>io.rest-assured</groupId>
+    <artifactId>rest-assured</artifactId>
+    <version>5.4.0</version>
+    <scope>test</scope>
+</dependency>
+<!-- https://mvnrepository.com/artifact/com.jayway.jsonpath/json-path -->
+<dependency>
+    <groupId>com.jayway.jsonpath</groupId>
+    <artifactId>json-path</artifactId>
+    <version>2.9.0</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
+<dependency>
+    <groupId>com.google.code.gson</groupId>
+    <artifactId>gson</artifactId>
+    <version>2.11.0</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+
+<!-- https://mvnrepository.com/artifact/com.github.scribejava/scribejava-apis -->
+<dependency>
+    <groupId>com.github.scribejava</groupId>
+    <artifactId>scribejava-apis</artifactId>
+    <version>8.3.3</version>
+    <scope>runtime</scope>
+</dependency>
+<!-- https://mvnrepository.com/artifact/com.github.java-json-tools/json-schema-validator -->
+<dependency>
+    <groupId>com.github.java-json-tools</groupId>
+    <artifactId>json-schema-validator</artifactId>
+    <version>2.2.14</version>
+</dependency>
+
+	  <!-- https://mvnrepository.com/artifact/org.apache.cxf/cxf-xerces-xsd-validation -->
+<dependency>
+    <groupId>org.apache.cxf</groupId>
+    <artifactId>cxf-xerces-xsd-validation</artifactId>
+    <version>2.7.18</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.json/json -->
+<dependency>
+    <groupId>org.json</groupId>
+    <artifactId>json</artifactId>
+    <version>20240303</version>
+</dependency>
+<dependency>
+    <groupId>io.rest-assured</groupId>
+    <artifactId>json-schema-validator</artifactId>
+    <version>4.5.0</version> <!-- Replace with the version you are using -->
+    <scope>test</scope>
+</dependency>
+<dependency>
+    <groupId>com.github.javafaker</groupId>
+    <artifactId>javafaker</artifactId>
+    <version>1.0.2</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+ 
+<!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi</artifactId>
+    <version>5.2.5</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
+
+<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi-ooxml</artifactId>
+    <version>5.2.5</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+<dependency>
+        <groupId>com.aventstack</groupId>
+        <artifactId>extentreports</artifactId>
+        <version>5.1.0</version> <!-- or any newer 5.x version -->
+        <scope>test</scope>
+    </dependency>
+
+    <!-- TestNG Dependency -->
+    <dependency>
+        <groupId>org.testng</groupId>
+        <artifactId>testng</artifactId>
+        <version>7.7.1</version>
+        <scope>test</scope>
+    </dependency>
+
+    <!-- Selenium for WebDriver and Screenshots -->
+    <dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-java</artifactId>
+        <version>4.20.0</version> <!-- Or any version compatible with your setup -->
+        <scope>test</scope>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/io.basc.framework/log4j2 -->
+
+
+<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
+<dependency>
+    <groupId>org.apache.logging.log4j</groupId>
+    <artifactId>log4j-core</artifactId>
+    <version>2.23.1</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api -->
+<dependency>
+    <groupId>org.apache.logging.log4j</groupId>
+    <artifactId>log4j-api</artifactId>
+    <version>2.23.1</version>
+    
+    
+</dependency>
+
+
+  </dependencies>
+ 
+  
+</project>

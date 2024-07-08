@@ -1,0 +1,32 @@
+2024-07-04 15:33:22 INFO  api.test.UserTest - !!!!!!!!!!!!creating user
+2024-07-04 15:33:32 INFO  api.test.UserTest - !!!!!!!!!!!!user created
+2024-07-04 15:33:32 INFO  api.test.UserTest - !!!!!!!!!!!!reading user info
+2024-07-04 15:33:33 INFO  api.test.UserTest - user info displayed
+2024-07-04 15:33:33 INFO  api.test.UserTest - !!!!!!!!!!!!updating user 
+2024-07-04 15:33:36 INFO  api.test.UserTest - !!!!!!!!!!!!user is updated
+2024-07-04 15:33:36 INFO  api.test.UserTest - !!!!!!!!!!!!delete user
+2024-07-04 15:33:37 INFO  api.test.UserTest - !!!!!!!!!!!!user deleted
+2024-07-04 15:35:53 INFO  api.test.UserTest - !!!!!!!!!!!!creating user
+2024-07-04 15:35:59 INFO  api.test.UserTest - !!!!!!!!!!!!user created
+2024-07-04 15:35:59 INFO  api.test.UserTest - !!!!!!!!!!!!reading user info
+2024-07-04 15:36:01 INFO  api.test.UserTest - user info displayed
+2024-07-04 15:36:01 INFO  api.test.UserTest - !!!!!!!!!!!!updating user 
+2024-07-04 15:36:03 INFO  api.test.UserTest - !!!!!!!!!!!!user is updated
+2024-07-04 15:36:03 INFO  api.test.UserTest - !!!!!!!!!!!!delete user
+2024-07-04 15:36:05 INFO  api.test.UserTest - !!!!!!!!!!!!user deleted
+2024-07-04 16:43:18 INFO  api.test.UserTest2 - !!!!!!!!!!!!creating user
+2024-07-04 16:43:26 INFO  api.test.UserTest2 - !!!!!!!!!!!!user created
+2024-07-04 16:43:26 INFO  api.test.UserTest2 - !!!!!!!!!!!!reading user info
+2024-07-04 16:43:27 INFO  api.test.UserTest2 - user info displayed
+2024-07-04 16:43:27 INFO  api.test.UserTest2 - !!!!!!!!!!!!updating user 
+2024-07-04 16:43:30 INFO  api.test.UserTest2 - !!!!!!!!!!!!user is updated
+2024-07-04 16:43:30 INFO  api.test.UserTest2 - !!!!!!!!!!!!delete user
+2024-07-04 16:43:32 INFO  api.test.UserTest2 - !!!!!!!!!!!!user deleted
+2024-07-04 17:00:50 INFO  api.test.UserTest - !!!!!!!!!!!!creating user
+2024-07-04 17:00:52 INFO  api.test.UserTest - !!!!!!!!!!!!user created
+2024-07-04 17:00:52 INFO  api.test.UserTest - !!!!!!!!!!!!reading user info
+2024-07-04 17:00:53 INFO  api.test.UserTest - user info displayed
+2024-07-04 17:00:53 INFO  api.test.UserTest - !!!!!!!!!!!!updating user 
+2024-07-04 17:00:56 INFO  api.test.UserTest - !!!!!!!!!!!!user is updated
+2024-07-04 17:00:56 INFO  api.test.UserTest - !!!!!!!!!!!!delete user
+2024-07-04 17:00:57 INFO  api.test.UserTest - !!!!!!!!!!!!user deleted
